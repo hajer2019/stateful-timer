@@ -1,0 +1,41 @@
+
+
+.box_timing{
+background-image: url(./images/bg1.png);
+background-repeat: no-repeat;
+margin: 0 auto;
+width: 420px;
+height: 780px;
+background-position: left top;
+}
+input[type="button"],input[type="reset"] {
+  -webkit-appearance: none;
+  border-radius: 4px;
+  background-color: none;
+  color: #2196F3;
+  border-style: solid;
+  cursor: pointer;
+  border-color: #00BCD4;
+  padding: 10px 35px;
+  background-color: transparent;
+  margin-right:5px;
+}
+.box1{
+  padding-top: 285px;
+  margin: 0 auto;
+  width: 295px;
+}
+.hours,.minute,.secd{
+  font-weight: bold;
+  font-size: 2.2em;
+}
+.second{
+  display: flex;
+  margin: 0 auto;
+  width: 245px;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  }
